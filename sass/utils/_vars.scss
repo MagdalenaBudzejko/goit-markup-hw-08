@@ -1,0 +1,22 @@
+:root {
+  --logo-first-color: #2196f3;
+  --logo-second-color: #000000;
+  --first-background: #ffffff;
+  --second-background: #f5f4fa;
+  --third-background: #2f303a;
+  --base-color: #212121;
+  --footer-base-color: rgba(255, 255, 255, 0.6);
+  --footer-icon-background: rgba(255, 255, 255, 0.1);
+  --contrast-color: #ffffff;
+  --minor-color: #757575;
+  --border-header: #ececec;
+  --border-image: #eeeeee;
+  --hover-focus-color: #2196f3;
+  --first-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+}
+body {
+  font-family: var(--first-font, --second-font);
+  background-color: var(--first-background);
+  color: var(--base-color);
+}

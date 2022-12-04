@@ -1,0 +1,23 @@
+.footer {
+  background-color: var(--third-background);
+  color: var(--contrast-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__container {
+  display: flex;
+}
+.footer__socialmedia {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-top: 12px;
+}
+.footer__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
