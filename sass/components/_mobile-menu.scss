@@ -1,0 +1,73 @@
+.d-none {
+  display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--first-background);
+  z-index: 2;
+}
+.mobile-menu__item {
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 36px;
+}
+.mobile-menu__link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--base-color);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--hover-focus-color);
+  }
+}
+
+.mobile-menu__list {
+  padding-top: 48px;
+  padding-left: 40px;
+}
+
+.mobile-menu__contacts {
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.mobile-menu__tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: var(--minor-color);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--hover-focus-color);
+  }
+}
+
+.mobile-menu__email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--minor-color);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--hover-focus-color);
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}

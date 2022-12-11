@@ -1,0 +1,13 @@
+.toggle-menu {
+  position: absolute;
+  border: none;
+  background-color: var(--first-background);
+  margin-top: 21px;
+  right: 25px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    fill: var(--hover-focus-color);
+  }
+}

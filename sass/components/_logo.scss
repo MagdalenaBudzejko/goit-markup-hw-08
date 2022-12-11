@@ -2,7 +2,7 @@
   font-family: var(--second-font);
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logo__part1 {
@@ -13,4 +13,10 @@
 }
 .logo__part2--footer {
   color: var(--contrast-color);
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 31px;
+  }
 }
